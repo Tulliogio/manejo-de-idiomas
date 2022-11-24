@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Idiomas - Evaluacion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="images/bg.svg" alt="" width="100" height="100">
+            <div class="d-block my-3">
+                <div class="">
+                    <img src="https://www.countryflags.io/US/shiny/64.png">
+                    <img src="https://www.countryflags.io/ES/shiny/64.png">
+                    <img src="https://www.countryflags.io/FR/shiny/64.png">
+                </div>
+                <br>
+                <div class="custom-control custom-radio">
+                    <input id="en" name="idioma" id="en" onclick="idiomaSeleccionado('en')" type="radio"
+                        class="custom-control-input" checked>
+                    <label class="custom-control-label" for="en">English</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input id="es" name="idioma" id="es" onclick="idiomaSeleccionado('es')" type="radio"
+                        class="custom-control-input">
+                    <label class="custom-control-label" for="es">Español</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input id="fr" name="idioma" id="fr" onclick="idiomaSeleccionado('fr')" type="radio"
+                        class="custom-control-input">
+                    <label class="custom-control-label" for="fr"> Française</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted" id="tituloEmpresa">Welcome </span>
+                </h4>
+                <ul id="contenidoEmpresa" class="list-group mb-3">
+
+                </ul>
+
+                <img src="images/LOGO.png">
+            </div>
+            <div class="col-md-8 order-md-1">
+
+                <h4 class="mb-3" id="tituloForm">Please complete this Form</h4>
+
+                <form class="needs-validation" novalidate>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <article>
+                                <div class="columnaDerecha">
+                                    <form class="formulario" action="">
+                                        <input type="text" name="nomb" placeholder="Nombre" for="nombre"
+                                            id="nombre"><br>
+                                        <input type="number" for="altura" name="alt" id="altura" placeholder="Altura"
+                                            size="4"><br>
+                                        <input type="number" for="peso" name="p" id="peso" placeholder="Peso" size="4">
+                                        <br><br>
+                                        <input type="number" for="edad" id="edad" placeholder="Edad en años" size="4">
+                                        <br><br>
+
+                                        <input type="radio" for="sexo" id="sexo1" name="sexo" value="hombre">
+
+                                        <label id="hombre" for="hombre">Hombre</label><br>
+                                        <input type="radio" id="sexo2" name="sexo" value="mujer">
+                                        <label id="mujer" for="mujer">Mujer</label><br>
+                                        <select name="select">
+                                            <option value="1.2">Poco o ningún ejercicio</option>
+                                            <option value="1.375">Ejercicio ligero (1 a 3 días a la semana)</option>
+                                            <option value="1.55">Ejercicio moderado (3 a 5 días a la semana)</option>
+                                            <option value="1.72">Deportista (6 -7 días a la semana)</option>
+                                            <option value="1.9">Atleta (Entrenamientos mañana y tarde)</option>
+                                        </select>
+
+                                        <input type="button" id="evaluar" value="Evaluar" onclick="mensaje()">
+                                    </form>
+                                </div>
+                                <section>
+                                    <p><label id="respuesta"></label></p>
+                                    <p><label id="respuesta2"></label></p>
+                                </section>
+                            </article>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                        </div>
+                        <div class="col-md-6 mb-3">
+
+                        </div>
+                    </div>
+
+
+            </div>
+            <br>
+
+            </form>
+        </div>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2020 Giovanni Tullio</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.chaacho.com">Legal</a></li>
+        </ul>
+    </footer>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

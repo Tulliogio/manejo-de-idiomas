@@ -1,0 +1,43 @@
+{
+    "idiomas": [
+        {
+            "idioma": "es",
+            "tituloForm": "Completa este Formulario",
+            "textoBoton": "Quiero registrarme",
+            "tituloEmpresa": "Chaacho",
+            "contenidoEmpresa": "IMC: IMC es el acrónimo de Índice de Masa Corporal, una medida ampliamente utilizada para si el o de una persona se encuentra proporcionado respecto a su altura o, por el contrario, padece de sobrepeso o infrapeso. Calcular IMC: Para calcular el imc de una persona únicamente se debe dividir el peso de ésta expresado en kilogramos-, por su altura elevada al cuadrado -expresada en metros. Por ejemplo una persona con una altura de 1.80 metros y un peso de 80 kg, tendrá un imc de 80 / 10802 = 24,69. Existen algunos ajustes y mejoras a la fórmula original   imc, que pretenden tener en cuenta otros factores importantes a la hora de decidir si el peso de una persona puede considerarse saludable. Fórmula IMC: Su fórmula es IMC=P/E2. Es decir, la fórmula del índice de masa corporal se calcula fácilmente dividiendo el peso por la estatura al cuadrado. Hay que tener en cuenta que la estatura debe estar medida en metros y no en centímetros. Masa corporal: En el ámbito de la nutrición y salud, se hab           la de masa corporal de una persona para referirse al peso de la misma o, más técnicamente, a la cantidad de materia que tiene su cuerpo.",
+            "nombre": "Nombre",
+            "altura": "Altura",
+            "peso": "Peso",
+            "edad": "Edad",
+            "hombre": "Hombre",
+            "mujer": "Mujer"
+        },
+        {
+            "idioma": "en",
+            "tituloEmpresa": "Chaacho",
+            "contenidoEmpresa": "BMI: BMI is the acronym for Body Mass Index, a widely used measure for whether or not a person is proportionate to their height or, on the contrary, is overweight or underweight. Calculate BMI: To calculate a person's BMI, you only have to divide their weight, expressed in kilograms, by their height squared, expressed in meters. For example, a person with a height of 1.80 meters and a weight of 80 kg, will have a BMI of 80/10802 = 24.69. There are some tweaks and improvements to the original bmi formula, which are intended to take other important factors into account when deciding whether a person's weight can be considered healthy. BMI Formula: Its formula is BMI = P / E2. That is, the body mass index formula is easily calculated by dividing weight by height squared. Keep in mind that height must be measured in meters and not centimeters. Body mass: In the field of nutrition and health, the body mass of a person is spoken of to refer to the weight of the same or, more technically, to the amount of matter that his body has.",
+            "tituloForm": "Please complete this Form",
+            "textoBoton": "Add my registry",
+            "nombre": "Name",
+            "altura": "Height",
+            "peso": "Weight",
+            "edad": "Age",
+            "hombre": "Man",
+            "mujer": "Woman"
+        },
+        {
+            "idioma": "fr",
+            "tituloEmpresa": "Chaacho",
+            "contenidoEmpresa": "IMC: L'IMC est l'acronyme de Body Mass Index, une mesure largement utilisée pour déterminer si une personne est proportionnelle à sa taille ou, au contraire, est en surpoids ou en insuffisance pondérale. Calculer l'IMC: Pour calculer l'IMC d'une personne, seul son poids, exprimé en kilogrammes, doit être divisé par sa taille au carré - exprimé en mètres. Par exemple, une personne d'une taille de 1,80 mètre et d'un poids de 80 kg aura un IMC de 80/10802 = 24,69. Il y a quelques ajustements et améliorations à la formule originale de l'IMC, qui visent à prendre en compte d'autres facteurs importants pour décider si le poids d'une personne peut être considéré comme sain. Formule IMC: Sa formule est IMC = P / E2. Autrement dit, la formule de l'indice de masse corporelle est facilement calculée en divisant le poids par la taille au carré. Gardez à l'esprit que la hauteur doit être mesurée en mètres et non en centimètres. Masse corporelle: Dans le domaine de la nutrition et de la santé, on parle de la masse corporelle d'une personne pour désigner le poids de celle-ci ou, plus techniquement, la quantité de matière que possède son corps.",
+            "tituloForm": "S'il vous plais completé ca Formulaire",
+            "textoBoton": "Jai mais voudrais registrer.",
+            "nombre": "Nome",
+            "altura": "Ataire",
+            "peso": "Pes",
+            "edad": "Age",
+            "hombre": "Male",
+            "mujer": "Femme"
+        }
+    ]
+}

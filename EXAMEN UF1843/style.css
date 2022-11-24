@@ -1,0 +1,186 @@
+header{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  }
+  nav{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .aside_principal, .contenido_principal{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 20%;
+  
+  font-size: 0.8em;
+
+  }
+  .formulario{
+    background-image: url('images/bg.svg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    
+  }
+  h1{
+    padding-top: 20sp;
+  }
+  footer{
+    text-align: center;
+  }
+  #respuesta{
+    color: rgb(230, 17, 17);
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 40px;
+
+  }
+  .normalRespuesta{
+    color: lime;
+  }
+  .respuestaDiv{
+    width: 400px;
+
+  }
+  section{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /**background-image: url('images/bg.svg');
+  background-repeat: no-repeat;**/
+  text-align: center;
+  }
+  article{
+      text-align: left;
+      width: 30%;
+  }
+  input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 400px;
+  }
+  #evaluar{
+    margin-left: 10px;
+    margin-top: 90px;
+  }
+  .aside_principal, article{
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+      margin: 30px;
+      text-align: justify;
+      
+  }
+  h1,h3{
+      line-height: 0.5em;
+  }
+  p{
+      vertical-align: top;
+      text-indent: 1em;
+  }
+  a :hover{
+      text-decoration: coral;
+      text-decoration-line: underline;
+  }
+  .titulo {
+      text-align: center;
+      height: 20px;
+      color: red;
+  }
+  
+  .logo {
+      float: left;
+      vertical-align: top;
+      margin-left: 50px;
+      font-size: xx-small;
+  }
+  .aside_principal{
+width: 400px;
+    margin-right: 20px;
+  }
+  
+  
+ 
+  .filaCabecera{
+      border-collapse: separate;
+      border-right:1px solid rgba(255, 0, 0, 0.404);
+      border-left:1px solid rgba(255, 0, 0, 0.404);
+  }
+  .columnas {
+  text-align: center;
+  border: 1px solid cornflowerblue;
+  border-bottom: 1px solid cornflowerblue;
+  border-right: cornflowerblue 1px solid double;
+  border-collapse: separate;
+  border-left: 1px solid cornflowerblue;
+  }
+  .divEspacio{
+      margin-top: 20%;
+  }
+ 
+  .datClienteCab {
+      text-align: right;
+      font-size: xx-small;
+  }
+
+
+  .conFactura {
+      padding: 20px;
+  }
+  
+  .totFactura {
+      padding: 20px;
+  }
+  
+  .footer {
+      border: grey 1px;
+      border-top: grey;
+      border-width: 1px;
+      border-color: indigo;
+      line-height: 80px;
+  }
+  
+  .th_Header {
+      font-weight: bold;
+  }
+  
+  .th_cab_factura{
+      border-right:1px solid rgba(255, 0, 0, 0.404);
+      border-left:1px solid rgba(255, 0, 0, 0.404);
+      border-collapse: collapse;
+      font-size: xx-small;
+  }
+  table {
+      display: table;
+      white-space: normal;
+      line-height: normal;
+      font-weight: normal;
+      font-style: normal;
+      font-size: xx-small;
+      border-spacing: 2px;
+      border-bottom: 1px rgba(255, 0, 0, 0.404);
+      border-collapse: collapse;
+  
+  }
+  .contenido{
+      margin-top: 20px;
+      height: 300px;
+  }
+ 
+  .blanco{
+      text-align: right;
+      padding-right: 15px;
+  }
+  .total, .subtotal{
+  
+      font-weight: bold;
+      text-align: right;
+      padding-right: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .preciounitario{
+      text-align: right;
+      padding-right: 15px;
+      border-left:1px solid rgba(255, 0, 0, 0.404);
+  
+  }
+ 
